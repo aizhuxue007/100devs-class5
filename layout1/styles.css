@@ -5,24 +5,25 @@
     box-sizing: border-box;
 }
 
+.border-gray {
+    border: 1px solid darkgray;
+}
+
 header, footer {
     height: 100px;
-    background: yellow;
     clear: both;
-    border: 2px solid red;
 }
 
 .container {
-    height: 400px;
-    background: aqua;
-    border: 2px solid red;
     float: left;
 }
 
 .reg {
-    width: 20%;
+    width: 33.3333%;
+    height: 150px;
 }
 
-.special {
-    width: 40%;
+.two-col {
+    width: 50%;
+    height: 200px;
 }

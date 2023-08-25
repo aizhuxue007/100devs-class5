@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.border-gray {
+    border: 1px solid darkgray;
+}
+
+header, footer {
+    height: 100px;
+    clear: both;
+}
+
+.container {
+    height: 400px;
+    float: left;
+}
+
+.reg {
+    width: 20%;
+}
+
+.special {
+    width: 40%;
+}
