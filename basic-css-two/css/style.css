@@ -1,0 +1,31 @@
+li {
+    color: blue;
+    background: grey;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+section {
+    height: 300px;
+    background: rgb(255, 113, 255);
+    border: 5px solid gold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: gold;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+/* <!-- Please make this footer have a dark brown background, 300px in height, and only 70% width. --> */
+footer {
+    background: rgb(95, 55, 12);
+    height: 300px;
+    width: 70%;
+}
+
+/* <!-- Please make this text have a line through it --> */
+footer h2 {
+    text-decoration: line-through;
+}

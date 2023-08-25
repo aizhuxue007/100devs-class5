@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    border: 2px solid red;
+}
+
+section {
+    width: 33.3333%;
+    height: 300px;
+    float: left;
+    border: 2px solid red;
+}
+
+
+footer {
+    height: 200px;
+    clear: left;
+    border: 2px solid red;
+}
