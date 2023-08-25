@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-header {
+header, footer {
     height: 200px;
     border: 2px solid red;
 }
@@ -17,9 +17,6 @@ section {
     border: 2px solid red;
 }
 
-
 footer {
-    height: 200px;
     clear: left;
-    border: 2px solid red;
 }

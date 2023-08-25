@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    background: yellow;
+    clear: both;
+    border: 2px solid red;
+}
+
+.container {
+    height: 400px;
+    background: aqua;
+    border: 2px solid red;
+    float: left;
+}
+
+.reg {
+    width: 20%;
+}
+
+.special {
+    width: 40%;
+}

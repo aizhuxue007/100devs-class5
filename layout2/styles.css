@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.border-gray {
+    border: 1px solid darkgray;
+    background: gray;
+}
+
+header, footer {
+    height: 100px;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.one {
+    height: 150px;
+    width: 100%;
+}
+
+.two {
+    height: 180px;
+    width: 33.3333%;
+}
+
+.three {
+    height: 180px;
+    width: 66.6666%;
+}
